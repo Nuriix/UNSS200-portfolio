@@ -1,8 +1,8 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "",
-  "description": "A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!",
+  "homepage": "http://Nuriix.github.io/UNSS200-portfolio",
+  "description": "Portfolio project for my UNSS-200 course. Credits to Jo Lienhoop!",
   "repository": "https://github.com/taniyow/react-portfolio",
   "author": "Mark Tan <markcmtan@gmail.com>",
   "license": "MIT",
@@ -31,6 +31,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -57,6 +59,7 @@
     ]
   },
   "devDependencies": {
-    "emailjs": "^4.0.0"
+    "emailjs": "^4.0.0",
+    "gh-pages": "^4.0.0"
   }
 }
