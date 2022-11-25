@@ -5,13 +5,12 @@ import { Hidden } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import DisplacementSphere from '../components/background/DisplacementSphere';
 import { ThemeToggle } from '../components/theme/ThemeToggle';
-import { Resume } from '../components/resume/Resume';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
 import { SideNavbar } from '../components/nav/SideNavbar';
-import { Works } from '../components/works/Works';
-import { About } from '../components/about/About';
-import { Contact } from '../components/contact/Contact';
+import { Part1 } from '../components/part1/Part1';
+import { Part2 } from '../components/part2/Part2';
+import { Part3 } from '../components/part3/part3';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -28,7 +27,6 @@ export const Home = () => {
     <>
       <div className={classes.root} id="home">
         <DisplacementSphere />
-        <LogoLink />
         <Content />
         <ThemeToggle />
         <Hidden smDown>
@@ -37,12 +35,11 @@ export const Home = () => {
         <Hidden mdUp>
           <SpeedDials />
         </Hidden>
-        <Resume />
       </div>
       <SideNavbar />
-      <Works />
-      <About />
-      <Contact />
+      <Part1/>
+      <Part2/>
+      <Part3/>
     </>
   );
 };
