@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "homepage": "http://imanirathj.me/UNSS200-portfolio",
   "description": "Portfolio project for my UNSS-200 course. Credits to Jo Lienhoop!",
-  "repository": "https://github.com/taniyow/react-portfolio",
-  "author": "Mark Tan <markcmtan@gmail.com>",
+  "repository": "https://github.com/Nuriix/UNSS200-portfolio",
+  "author": "Julie Manirath <juliemanirath@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
